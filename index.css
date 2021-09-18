@@ -1366,13 +1366,42 @@ html{
     background-color: lime;
 }
 
+@media only screen and (max-width:450px) {
+    .three-icon-1{
+        display: none;
+    }
+    .three-icon-2{
+        display: none;
+    }
+    .three-icon-3{
+        display: none;
+    }
+    .three-icon-4{
+        display: none;
+    }
+    .three-icon-5{
+        display: none;
+    }
+}
 
 @media only screen and (max-width:800px) {
     .three-box-1-btn{
         top: 3.5rem;
         left: 16.3rem;
     }
-    .three-icon-1,.three-icon-2 , .three-icon-3, .three-icon-4, .three-icon-5{
+    .three-icon-1{
+        display: none;
+    }
+    .three-icon-2{
+        display: none;
+    }
+    .three-icon-3{
+        display: none;
+    }
+    .three-icon-4{
+        display: none;
+    }
+    .three-icon-5{
         display: none;
     }
 }
@@ -1414,7 +1443,20 @@ html{
     .three-box-1-btn{
         top: -35%;
     }
-    .three-icon-1,.three-icon-2 , .three-icon-3, .three-icon-4, .three-icon-5{
+    
+    .three-icon-1{
+        display: none;
+    }
+    .three-icon-2{
+        display: none;
+    }
+    .three-icon-3{
+        display: none;
+    }
+    .three-icon-4{
+        display: none;
+    }
+    .three-icon-5{
         display: none;
     }
 
@@ -1455,8 +1497,20 @@ html{
     
 }
 
-@media only screen and (max-width:375px) {
-    .three-icon-1,.three-icon-2 , .three-icon-3, .three-icon-4, .three-icon-5{
+@media only screen and (max-width:370px) {
+    .three-icon-1{
+        display: none;
+    }
+    .three-icon-2{
+        display: none;
+    }
+    .three-icon-3{
+        display: none;
+    }
+    .three-icon-4{
+        display: none;
+    }
+    .three-icon-5{
         display: none;
     }
 }
