@@ -1408,7 +1408,7 @@ html{
 
 @media only  screen and (max-width:450px){
     .three{
-        grid-template-rows: 1rem 56rem 2rem;
+        grid-template-rows: 1rem 73rem 2rem;
     }
 
     .three-main{
@@ -1418,7 +1418,7 @@ html{
     .three-box-up{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 9rem 1rem 9rem 1rem 9rem;
+        grid-template-rows: 12rem 1rem 12rem 1rem 10rem;
         grid-template-areas: "three-box-1"
                              "box-1-gap"
                              "three-box-2"
@@ -1429,7 +1429,7 @@ html{
     .three-box-down{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 9rem 1rem 9rem 1rem 9rem;
+        grid-template-rows: 12rem 1rem 12rem 1rem 12rem;
         grid-template-areas: "three-box-4"
                              "box-4-gap"
                              "three-box-5"
@@ -1802,7 +1802,7 @@ html{
 
 @media only screen and (max-width:450px){
     .container{
-        grid-template-rows: 100rem 72rem 44rem 60rem 39rem 60rem 8rem;
+        grid-template-rows: 100rem 72rem 44rem 80rem 39rem 60rem 8rem;
     }
     .five{
         grid-template-rows: 3% 96% 1%;
