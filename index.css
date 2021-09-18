@@ -87,10 +87,11 @@ html{
 
 .logo{
     /* background-color: lightcoral; */
-    margin: auto;
     background-size: cover;
     color: white;
     font-size: 3rem;
+    padding-top: 18px;
+    
 }
 .logo h1{
     font-size: 1rem;
@@ -358,10 +359,10 @@ html{
     top: 10%;
 }
 
-@media only screen and (max-width:1445px) {
+@media only screen and (max-width:1200px) {
     .boxes{
         position: absolute;
-        top: 49%;
+        top: 78%;
         right: 10%;
         display: flex;
         width: 80%;
@@ -1100,12 +1101,21 @@ html{
         .angle-right{
             left: 14rem;
             top: -9px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .tmthree-section-1{
             margin-top: -3rem;
         }
         .tmthree-section-2 h4{
             margin-top: -3rem;
+        }
+        .managing-director{
+            margin-top: -1rem;
+        }
+        .two-p{
+            font-size: 8px;
         }
     }
 
@@ -1370,6 +1380,9 @@ html{
         top: -5.5rem;
         width: 6rem;
     }
+    .three-icon-1,.three-icon-2 , .three-icon-3, .three-icon-4, .three-icon-5{
+        display: none;
+    }
 }
 
 @media only  screen and (max-width:450px){
@@ -1448,6 +1461,12 @@ html{
         margin-top: -5px;
     }
     
+}
+
+@media only screen and (max-width:375px) {
+    .three-icon-1,.three-icon-2 , .three-icon-3, .three-icon-4, .three-icon-5{
+        display: none;
+    }
 }
 
 /* /////////////////////////////////// WRAPPER E//////////////////////////////////// */
@@ -1763,12 +1782,12 @@ html{
     .five-wrap-2{
         position: relative;
         top: 8%;
-        left: 5%;
     }
     .five-wrap-3{
         position: relative;
         top: -20%;
-        left: 50%;
+        display: flex;
+        justify-content: end;
     }
     .five-wrap-4{
         position: relative;
