@@ -1101,6 +1101,7 @@ html{
             display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
         }
         .tmthree-section-1{
             margin-top: -3rem;
