@@ -933,9 +933,6 @@ html{
     font-size: 1.2rem;
     top: -30%;
     left: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .angle-right:hover{
@@ -1366,44 +1363,13 @@ html{
     background-color: lime;
 }
 
-@media only screen and (max-width:450px) {
-    .three-icon-1{
-        display: none;
-    }
-    .three-icon-2{
-        display: none;
-    }
-    .three-icon-3{
-        display: none;
-    }
-    .three-icon-4{
-        display: none;
-    }
-    .three-icon-5{
-        display: none;
-    }
-}
 
 @media only screen and (max-width:800px) {
     .three-box-1-btn{
         top: 3.5rem;
         left: 16.3rem;
     }
-    .three-icon-1{
-        display: none;
-    }
-    .three-icon-2{
-        display: none;
-    }
-    .three-icon-3{
-        display: none;
-    }
-    .three-icon-4{
-        display: none;
-    }
-    .three-icon-5{
-        display: none;
-    }
+    
 }
 
 @media only  screen and (max-width:450px){
@@ -1412,13 +1378,13 @@ html{
     }
 
     .three-main{
-        grid-template-rows: 49% 2% 49%;
+        grid-template-rows: 48% 10% 48%;
     }
     
     .three-box-up{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 12rem 1rem 12rem 1rem 10rem;
+        grid-template-rows: 12rem 1rem 12rem 3rem 10rem;
         grid-template-areas: "three-box-1"
                              "box-1-gap"
                              "three-box-2"
@@ -1429,7 +1395,7 @@ html{
     .three-box-down{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 12rem 1rem 12rem 1rem 12rem;
+        grid-template-rows: 12rem 3rem 12rem 2rem 12rem;
         grid-template-areas: "three-box-4"
                              "box-4-gap"
                              "three-box-5"
@@ -1440,24 +1406,16 @@ html{
     .three-box-1 h2{
         font-size: 2rem;
     }
+    
     .three-box-1-btn{
-        top: -35%;
+        top: -20%;
     }
     
     .three-icon-1{
-        display: none;
+        top: -40%;
     }
-    .three-icon-2{
-        display: none;
-    }
-    .three-icon-3{
-        display: none;
-    }
-    .three-icon-4{
-        display: none;
-    }
-    .three-icon-5{
-        display: none;
+    .three-icon-2, .three-icon-3 , .three-icon-4, .three-icon-5{
+        top: -35%;
     }
 
     .common{
@@ -1472,7 +1430,7 @@ html{
     }
     .three-box-2 h5{
         font-size: 11px;
-        margin-top: -5px;
+        margin-top: -25px;
         padding-bottom: 8px;
     }
     .three-box-2 P{
@@ -1480,19 +1438,19 @@ html{
         line-height: 1.2;
     }
     .three-box-3 h5{
-        margin-top: -5px;
+        margin-top: -20px;
     }
     .three-box-3 P{
         line-height: 1.2;
     }
     .three-box-4 h5{
-        margin-top: -5px;
+        margin-top: -25px;
     }
     .three-box-5 h5{
-        margin-top: -5px;
+        margin-top: -25px;
     }
     .three-box-6 h5{
-        margin-top: -5px;
+        margin-top: -25px;
     }
     
 }
@@ -1802,7 +1760,7 @@ html{
 
 @media only screen and (max-width:450px){
     .container{
-        grid-template-rows: 100rem 72rem 44rem 80rem 39rem 60rem 8rem;
+        grid-template-rows: 100rem 72rem 44rem 85rem 39rem 60rem 8rem;
     }
     .five{
         grid-template-rows: 3% 96% 1%;
