@@ -997,7 +997,7 @@ html{
     .two-h5{
         font-size: 12px;
         color: #0046a7;
-        margin-top: 1rem;
+        margin-top: 0rem;
         padding-bottom: 1px;
     }
     .managing-director{
@@ -1012,17 +1012,17 @@ html{
     .tmt-section-2 h4{
         font-size: 15px;
         position: relative;
-        top: -12rem;
+        top: -13rem;
     }
     .tmt-section-2 p{
         font-size: 10px;
         position: relative;
-        top: -13rem;
+        top: -14rem;
     }
     .tmt-section-1{
        height: 50%;
        position: relative;
-       top: -25%;
+       top: -39%;
        
     }
     
@@ -1033,17 +1033,17 @@ html{
     .tmthree-section-1{
         height: 50%;
         position: relative;
-        top: -18rem;
+        top: -19rem;
     }
     .tmthree-section-2 h4{
         font-size: 15px;
         position: relative;
-        top: -25rem;
+        top: -27rem;
     }
     .tmthree-section-2 p{
         font-size: 10px;
         position: relative;
-        top: -25rem;
+        top: -28rem;
     }
 
     .angle-right{
@@ -1052,6 +1052,15 @@ html{
     }
    
     
+}
+
+@media only screen and (max-width:350) {
+    .angle-right{
+        display: none;
+    }
+    .angle-right:hover{
+        display: none;
+    }
 }
 
 
