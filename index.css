@@ -450,6 +450,15 @@ html{
     .num{
         display: none;
     }
+    .volume:hover{
+        cursor: pointer;
+        color: white;
+    }
+    .compass:hover{
+        cursor: pointer;
+        color: white;
+    }
+    
     .helpl{
         display: none;
     }
@@ -970,62 +979,62 @@ html{
 
 }
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:450px) {
    
-    .two{
-        display: grid;
-        grid-template-rows: 12% 80% 8%;
-        grid-template-areas: "two-top"
-                             "two-main"
-                             "two-bottom";
-    
-    }
     .two-main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3,1fr);
-
+        grid-template-rows: 43% 28.5% 28.5%;
     }
 
     .two-main-one{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        padding-top: 2rem;
+        padding-left: 4rem;
     }
     .two-h2{
-        font-size: 25px;
+        font-size: 30px;
         padding-bottom: 0rem;
     }
     
     .two-p{
-        font-size: 10px;
+        font-size: 25px;
         line-height: 1.2;
-        padding-bottom: 0rem;
+        margin-top: -6rem;
+        padding-bottom: 7rem;
     }
     .two-h5{
         font-size: 12px;
         color: #0046a7;
+        margin-top: -12rem;
         padding-bottom: 1px;
-        padding-left: 15px;
+        padding-left: 0px;
     }
     .managing-director{
-        position: relative;
-        top: -9rem;
-        left: 205.5%;
-        padding-top: 5px;
+        display: none;
     }
 
     .two-main-two{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .tmt-section-1{
+        position: relative;
+        top: -18rem;
+        left: 8%;
     }
     .tmt-section-2 h4{
-        margin: 3px 0;
-        font-size: 13px;
+        font-size: 15px;
+        position: relative;
+        top: -15rem;
+        padding-left: 2.5rem;
     }
     .tmt-section-2 p{
         font-size: 10px;
-        height: 100px;
-        padding-top: 10px;
+        position: relative;
+        top: -15rem;
+        padding-left: 2.5rem;
     }
     .tmt-section-1{
         width: 90%;
@@ -1034,20 +1043,26 @@ html{
     
     .two-main-three{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
     }
     .tmthree-section-1{
         width: 90%;
         height: 130%;
+        position: relative;
+        top: -18rem;
+        left: 8%;
     }
     .tmthree-section-2 h4{
-        margin: 0px 0;
-        font-size: 13px;
+        font-size: 15px;
+        position: relative;
+        top: -16rem;
+        padding-left: 3rem;
     }
     .tmthree-section-2 p{
         font-size: 10px;
-        height: 100px;
-        padding-top: 13px;
+        position: relative;
+        top: -16rem;
+        padding-left: 3rem;
     }
 
     .angle-right{
@@ -1055,8 +1070,11 @@ html{
         height: 2rem;
         border-radius: 50%;
         font-size: 1rem;
-        top: -60%;
-        left: -1%;
+        position: relative;
+        top: -22rem;
+        display: flex;
+        justify-content: center;
+        
     }
    
     
@@ -1161,6 +1179,106 @@ html{
     }
 }
 
+@media only screen and (max-width:380px) {
+   
+    .two-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 43% 28.5% 28.5%;
+    }
+
+    .two-main-one{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        padding-top: 2rem;
+        padding-left: 4rem;
+    }
+    .two-h2{
+        font-size: 25px;
+        padding-bottom: 0rem;
+    }
+    
+    .two-p{
+        font-size: 10px;
+        line-height: 1.1;
+        margin-top: -4rem;
+        padding-bottom: 7rem;
+    }
+    .two-h5{
+        font-size: 12px;
+        color: #0046a7;
+        margin-top: -9rem;
+        padding-bottom: 1px;
+        padding-left: 0px;
+    }
+    .managing-director{
+        display: none;
+    }
+
+    .two-main-two{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .tmt-section-1{
+        position: relative;
+        top: -18rem;
+        left: 8%;
+    }
+    .tmt-section-2 h4{
+        font-size: 15px;
+        position: relative;
+        top: -15rem;
+        padding-left: 2.5rem;
+    }
+    .tmt-section-2 p{
+        font-size: 10px;
+        position: relative;
+        top: -15rem;
+        padding-left: 2.5rem;
+    }
+    .tmt-section-1{
+        width: 90%;
+        height: 130%;
+    }
+    
+    .two-main-three{
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+    .tmthree-section-1{
+        width: 90%;
+        height: 80%;
+        position: relative;
+        top: -16rem;
+        left: 8%;
+    }
+    .tmthree-section-2 h4{
+        font-size: 15px;
+        position: relative;
+        top: -16rem;
+        padding-left: 3rem;
+    }
+    .tmthree-section-2 p{
+        font-size: 10px;
+        position: relative;
+        top: -16rem;
+        padding-left: 3rem;
+    }
+
+    .angle-right{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        font-size: 1rem;
+        position: relative;
+        top: -22rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+   
+    
+}
 /* /////////////////////////////////// WRAPPER D//////////////////////////////////// */
 
 .wrapperD{
@@ -1384,13 +1502,14 @@ html{
     
     .three-box-up{
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 12rem 1rem 12rem 3rem 10rem;
+        grid-template-columns:1fr;
+        grid-template-rows: 13rem 1rem 12rem 3rem 11rem;
         grid-template-areas: "three-box-1"
                              "box-1-gap"
                              "three-box-2"
                              " box-2-gap"
                              "three-box-3";
+                             padding: 6rem;
     }
 
     .three-box-down{
@@ -1402,6 +1521,11 @@ html{
                              "three-box-5"
                              " box-5-gap"
                              "three-box-6";
+                             padding: 6rem;
+    }
+
+    .three-box-4{
+        padding-top: 5rem;
     }
 
     .three-box-1 h2{
@@ -1410,6 +1534,7 @@ html{
     
     .three-box-1-btn{
         top: -20%;
+        left: 85%;
     }
     
     .three-icon-1{
@@ -1569,6 +1694,13 @@ html{
     .four{
         display: grid;
         grid-template-rows: 1% 90% 9%;
+    }
+    .four-wrapper-left h1{
+        font-size: 3rem;
+        padding-left: 25px;
+    }
+    .four-wrapper-left h3{
+        font-size: 1rem;
     }
 }
 
@@ -1761,7 +1893,7 @@ html{
 
 @media only screen and (max-width:450px){
     .container{
-        grid-template-rows: 100rem 72rem 44rem 85rem 39rem 60rem 8rem;
+        grid-template-rows: 100rem 72rem 74rem 95rem 39rem 60rem 8rem;
     }
     .five{
         grid-template-rows: 3% 96% 1%;
@@ -1805,7 +1937,9 @@ html{
         padding-top: -1rem;
     }
     .search-bar{
-        height: 20%;
+        height: 25%;
+        width: 100%;
+        border-radius: 2rem;
     }
     .five-wrap-1-para{
         padding-top: 12px;
