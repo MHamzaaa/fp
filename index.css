@@ -942,6 +942,9 @@ html{
     font-size: 1.2rem;
     top: -30%;
     left: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .angle-right:hover{
@@ -955,261 +958,47 @@ html{
     /* background-color: lightcyan; */
 }
 
-@media only screen and (max-width:850px) {
-    .two-p{
-        font-size: 10px;
-        line-height: 1.2;
-        padding-right: 15px;
-    }
-   
-    .tmt-section-2 p{
-        font-size: 10px;
-        margin-top: -1rem;
-        padding-right: 10px;
-    }
 
-    .tmthree-section-2 p{
-        font-size: 10px;
-        margin-top: -1rem;
-        padding-right: 10px;
-    }
-    .angle-right{
-        top: -3rem;
-    }
-
-}
 
 @media only screen and (max-width:450px) {
    
-    .two-main{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 43% 28.5% 28.5%;
-    }
-
-    .two-main-one{
-        display: grid;
-        grid-template-rows: repeat(3,1fr);
-        padding-top: 2rem;
-        padding-left: 4rem;
-    }
-    .two-h2{
-        font-size: 30px;
-        padding-bottom: 0rem;
-    }
-    
-    .two-p{
-        font-size: 25px;
-        line-height: 1.2;
-        margin-top: -6rem;
-        padding-bottom: 7rem;
-    }
-    .two-h5{
-        font-size: 12px;
-        color: #0046a7;
-        margin-top: -12rem;
-        padding-bottom: 1px;
-        padding-left: 0px;
-    }
-    .managing-director{
-        display: none;
-    }
-
-    .two-main-two{
-        display: grid;
-        grid-template-rows: repeat(2,1fr);
-    }
-    .tmt-section-1{
-        position: relative;
-        top: -18rem;
-        left: 8%;
-    }
-    .tmt-section-2 h4{
-        font-size: 15px;
-        position: relative;
-        top: -15rem;
-        padding-left: 2.5rem;
-    }
-    .tmt-section-2 p{
-        font-size: 10px;
-        position: relative;
-        top: -15rem;
-        padding-left: 2.5rem;
-    }
-    .tmt-section-1{
-        width: 90%;
-        height: 130%;
-    }
-    
-    .two-main-three{
-        display: grid;
-        grid-template-rows: repeat(2,1fr);
-    }
-    .tmthree-section-1{
-        width: 90%;
-        height: 130%;
-        position: relative;
-        top: -18rem;
-        left: 8%;
-    }
-    .tmthree-section-2 h4{
-        font-size: 15px;
-        position: relative;
-        top: -16rem;
-        padding-left: 3rem;
-    }
-    .tmthree-section-2 p{
-        font-size: 10px;
-        position: relative;
-        top: -16rem;
-        padding-left: 3rem;
-    }
-
-    .angle-right{
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        font-size: 1rem;
-        position: relative;
-        top: -22rem;
-        display: flex;
-        justify-content: center;
-        
-    }
-   
-    
-}
-
-@media only screen and (max-width:560px) {
     .two{
         display: grid;
-        grid-template-rows: 5% 90% 5%;
+        grid-template-rows: 1% 98% 1%;
         grid-template-areas: "two-top"
                              "two-main"
                              "two-bottom";
+                             padding: 1rem;
     
     }
-    .managing-director{
-        top: -13rem;
-    }
-    .angle-right{
-        left: 18rem;
-    }
-}
-
-@media only screen and (max-width:500px) {
-    .two{
-        grid-template-rows: 1% 98% 1%;
-    }
-    .two-p{
-        font-size: 9px;
-    }
-    .two-h2{
-        font-size: 20px;
-    }
-    .managing-director{
-        top: -11rem;
-        left: 210%;
-    }
-
-    @media only screen and (max-width:400px) {
-        .angle-right{
-            left: 15rem;
-            top: -15px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        .tmthree-section-1{
-            margin-top: -3rem;
-        }
-        .tmthree-section-2 h4{
-            margin-top: -3rem;
-        }
-        .managing-director{
-            margin-top: -1rem;
-        }
-        .two-p{
-            font-size: 8px;
-        }
-    }
-
-}
-
-@media only  screen and (max-width:325px) {
-    .two-p{
-        font-size: 6px;
-        padding-right: 0px;
-        padding-left:5px ;
-    }
-
-    .two-h5{
-        font-size: 10px;
-    }
-
-    .two-h2{
-        font-size: 15px;
-        line-height: 1.2;
-    }
-
-    .managing-director{
-        top: -9.5rem;
-    }
-   
-    .tmt-section-2 p{
-        font-size: 9px;
-        margin-top:-1rem;
-        padding-right: 10px;
-    }
-    .tmt-section-2 h4{
-        margin-top: -2rem;
-        font-size: 14px;
-    }
-    .tmt-section-1{
-        margin-top: -2rem;
-    }
-
-    .tmthree-section-2 p{
-        font-size: 9px;
-        margin-top: -1rem;
-    }
-    .angle-right{
-        left: 11rem;
-    }
-}
-
-@media only screen and (max-width:380px) {
-   
     .two-main{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 43% 28.5% 28.5%;
+        grid-template-rows: 30% 35% 35%;
     }
 
     .two-main-one{
         display: grid;
         grid-template-rows: repeat(3,1fr);
-        padding-top: 2rem;
-        padding-left: 4rem;
+        /* padding-top: 2rem;
+        padding-left: 4rem; */
     }
     .two-h2{
-        font-size: 25px;
+        font-size: 20px;
         padding-bottom: 0rem;
     }
     
     .two-p{
-        font-size: 10px;
+        font-size: 11px;
         line-height: 1.1;
-        margin-top: -4rem;
-        padding-bottom: 7rem;
+        margin-top: -2rem;
+        padding-bottom: 0rem;
     }
     .two-h5{
         font-size: 12px;
         color: #0046a7;
-        margin-top: -9rem;
+        margin-top: 1rem;
         padding-bottom: 1px;
-        padding-left: 0px;
     }
     .managing-director{
         display: none;
@@ -1219,26 +1008,22 @@ html{
         display: grid;
         grid-template-rows: repeat(2,1fr);
     }
-    .tmt-section-1{
-        position: relative;
-        top: -18rem;
-        left: 8%;
-    }
+    
     .tmt-section-2 h4{
         font-size: 15px;
         position: relative;
-        top: -15rem;
-        padding-left: 2.5rem;
+        top: -12rem;
     }
     .tmt-section-2 p{
         font-size: 10px;
         position: relative;
-        top: -15rem;
-        padding-left: 2.5rem;
+        top: -13rem;
     }
     .tmt-section-1{
-        width: 90%;
-        height: 130%;
+       height: 50%;
+       position: relative;
+       top: -25%;
+       
     }
     
     .two-main-three{
@@ -1246,39 +1031,32 @@ html{
         grid-template-rows: repeat(2,1fr);
     }
     .tmthree-section-1{
-        width: 90%;
-        height: 80%;
+        height: 50%;
         position: relative;
-        top: -16rem;
-        left: 8%;
+        top: -18rem;
     }
     .tmthree-section-2 h4{
         font-size: 15px;
         position: relative;
-        top: -16rem;
-        padding-left: 3rem;
+        top: -25rem;
     }
     .tmthree-section-2 p{
         font-size: 10px;
         position: relative;
-        top: -16rem;
-        padding-left: 3rem;
+        top: -25rem;
     }
 
     .angle-right{
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        font-size: 1rem;
-        position: relative;
-        top: -22rem;
-        display: flex;
-        justify-content: center;
+        display: none;
         
     }
    
     
 }
+
+
+
+
 /* /////////////////////////////////// WRAPPER D//////////////////////////////////// */
 
 .wrapperD{
@@ -1893,7 +1671,7 @@ html{
 
 @media only screen and (max-width:450px){
     .container{
-        grid-template-rows: 100rem 72rem 74rem 95rem 39rem 60rem 8rem;
+        grid-template-rows: 100rem 72rem 62rem 95rem 39rem 60rem 8rem;
     }
     .five{
         grid-template-rows: 3% 96% 1%;
